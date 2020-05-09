@@ -1,4 +1,4 @@
-baseURL = "lidr"
+baseURL = "https://lidr.es"
 disableLanguages = []
 disqusShortname = "educenter"
 paginate = "6"
