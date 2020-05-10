@@ -131,6 +131,47 @@ URL = "research"
 name = "research"
 weight = 1
 
+[[menu.main]]
+URL = "course"
+name = "Become a Tech Lidr"
+weight = 2
+[[menu.main]]
+URL = "about"
+name = "What is Lidr"
+weight = 1
+[[menu.main]]
+URL = "event"
+name = "event"
+parent = "Pages"
+weight = 1
+[[menu.main]]
+URL = "teacher"
+name = "teacher"
+parent = "Pages"
+weight = 2
+[[menu.main]]
+URL = "scholarship"
+name = "scholarship"
+parent = "Pages"
+weight = 5
+[[menu.main]]
+URL = "research"
+name = "research"
+parent = "Pages"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
+
 [params]
 address = "Barcelona"
 author = "Lidr"
