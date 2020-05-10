@@ -29,58 +29,68 @@ weight = 3
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
+weight = 5
 [[menu.footer]]
 URL = "notice"
 name = "notice"
+weight = 4
 [[menu.footer]]
 URL = "event"
 name = "event"
+weight = 3
 [[menu.footer]]
 URL = "scholarship"
 name = "scholarship"
+weight = 2
 [[menu.footer]]
 URL = "research"
 name = "research"
-[[menu.main]]
-URL = "about"
-name = "About"
 weight = 1
 [[menu.main]]
+URL = "notice"
+name = "notice"
+parent = "Pages"
+weight = 3
+[[menu.main]]
 URL = "course"
-name = "course"
+name = "Become a Tech Lidr"
 weight = 2
 [[menu.main]]
-hasChildren = true
-name = "Pages"
-weight = 3
+URL = "about"
+name = "What is Lidr"
+weight = 1
+[[menu.main]]
+URL = "event"
+name = "event"
+parent = "Pages"
+weight = 1
 [[menu.main]]
 URL = "teacher"
 name = "teacher"
 parent = "Pages"
-[[menu.main]]
-URL = "notice"
-name = "notice"
-parent = "Pages"
-[[menu.main]]
-URL = "event"
-name = "event"
-parent = "Pages"
+weight = 2
 [[menu.main]]
 URL = "scholarship"
 name = "scholarship"
 parent = "Pages"
+weight = 5
 [[menu.main]]
 URL = "research"
 name = "research"
 parent = "Pages"
-[[menu.main]]
-URL = "blog"
-name = "blog"
 weight = 4
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 5
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
 [params]
 address = "Barcelona"
 author = "Lidr"
