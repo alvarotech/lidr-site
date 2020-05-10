@@ -1,4 +1,4 @@
-baseURL = "https://lidr.es"
+baseURL = "https://lidr.netlify.app"
 disableLanguages = []
 disqusShortname = "educenter"
 paginate = "6"
