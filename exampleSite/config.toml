@@ -7,18 +7,25 @@ theme = "educenter-hugo"
 title = "Lidr | Better tech leaders for a better world"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Lidr"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
+[Languages.es]
+contentDir = "content/spanish"
+copyright = "Copyright &copy; 2020 Lidr"
+home = "Inicio"
+languageCode = "es-es"
+languageName = "Es"
+weight = 2
 [Languages.fr]
 contentDir = "content/french"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Lidr"
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = 2
+weight = 3
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
